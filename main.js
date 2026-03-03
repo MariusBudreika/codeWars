@@ -68,3 +68,20 @@ const flyBy1 = (lamps, drone) => [...lamps].fill(`o`, 0, drone.length).join(``);
 
 console.log(flyBy1("xxxxxx", "====T"));
 */
+
+// Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative. If the array is empty, return 0.
+
+/*
+function sum(numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+}
+console.log(sum([1, 5.2, 4, 0, -1]));
+*/
+
+//  You are given two interior angles (in degrees) of a triangle. Write a function to return the 3rd.
+
+/*
+function otherAngle(a, b) {
+  return 180- (a + b);
+}
+*/
